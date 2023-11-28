@@ -1,0 +1,272 @@
+/* this line for font family url import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+    :root {
+        --purple500: #281154;
+        --purple300: #270082;
+        --purple600: #1b0058;
+        --red600: #dc0000;
+        --body: #f9f6ff;
+        --max-width: 1200px;
+      }
+/* this line for box size  */
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+/* ṭhis line for html and size */
+      html,body{
+        
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        line-height: 1.4;
+        scroll-behavior: smooth;
+      }
+/* this line for container size */
+.container{
+  max-width: 1200px;
+  margin: auto 0;
+}
+/* this line for ul  */
+ul{
+  list-style: none;
+}
+/* this line for a */
+a{
+  text-decoration: none;
+  color: white;
+}
+/* this line for header */
+header{
+  background-color: var(--purple300);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+/* this line for nav */
+nav{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  
+  
+}
+/* this line for nav ul */
+nav ul{
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  
+}
+/* this line for logo  */
+.logo{
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 50px;
+  
+}
+  
+/* this line for nav ul li */
+nav ul li{
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in-out;
+
+}
+
+/* this line for nav ul li:hover */
+nav ul li:hover{
+  border-bottom: 2px solid white;
+  transition: 0.2s ease-in-out;
+
+}
+
+/* this line for hero-section */
+.hero-section{
+  background-image: url(images/hero_image.png);
+  height: 100vh;
+  display: grid;
+  color: white;
+  place-items: center;
+  text-align: center;
+
+}
+
+/* this line of code hero-section container */
+.hero-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+/* this line for hero-section h1 */
+.hero-section h1{
+  font-size: 96px;
+
+}
+
+/* this line for hero-section h3 */
+.hero-section h3{
+  font-size: 32px;
+}
+
+/* this line for music-section */
+.music-section{
+  padding-top: 50px;
+  background-color: var(--purple500);
+}
+
+/* this line for music-section container */
+.music-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* this line for ipad-iphone-img */
+.ipad-iphone-img{
+  position: relative;
+  margin-top: -400px;
+  top:400px ;
+  
+}
+
+/* this line for button */
+button{
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s ease-in-out;
+
+}
+
+/* this line for button:hover */
+button:hover{
+
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+  background-color: #ebebf3ed;
+  color: black;
+
+}
+
+/* this line for primary-btn */
+.primary-btn{
+
+  background-color: #dc0000;
+  border-radius: 2px;
+  color: #f9f6ff;
+
+}
+
+/* this line for secondary-btn */
+.secondary-btn{
+  background-color: var(--purple300);
+  color: white;
+}
+
+/* this line for about-music */
+.about-music{
+   padding-top: 500px;
+   display: grid;
+   place-items: center;
+   gap: 50px;
+   text-align: center;
+   margin-bottom: 50px;
+
+
+}
+
+/* this line for video-section */
+.video-section{
+  background-image: url(images/video.png);
+  min-height: 800px;
+  display: grid;
+  place-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* this line for video-section container */
+.video-section container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -200px;
+}
+
+/* this line for hero-section  & video section */
+.hero-section ,.video-section{
+  position: relative;
+  background-position: center;
+  background-size:cover; 
+  background-repeat: no-repeat;
+  
+
+}
+
+/* this line for hero-section */
+.gift-section{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+}
+
+/* this lien for gift-content */
+.gift-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* this line for upper-footer */
+.upper-footer{
+  background-color: var(--purple600);
+  padding: 20px;
+}
+
+/* this line for upper-footer container */
+.upper-footer .container{
+
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+/* this line for upper-footer h4 */
+.upper-footer h4{
+   padding-bottom: 10px;
+   border-bottom: 2px solid white;
+   margin: 10px;
+}
+
+/* this line for footer-lower */
+.footer-lower{
+  background-color: var(--purple300);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+
+/* this line for gift-section */
+.gift-section{
+  scroll-margin: 120px;
+}
+  
+
+
+
+
+
+
+
+
